@@ -74,7 +74,8 @@ struct ContentView: View {
         }
     }
 
-
+// this is a great way to incorperate json file into the mood app
+    
     // Save moodHistory as moodHistory.json
     func saveHistory() {
 
