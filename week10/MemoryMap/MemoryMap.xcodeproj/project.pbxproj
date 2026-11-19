@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		2A50F088E69B4EAAA97EDFAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		826B218C3089E16D00B5288D /* MemoryMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E814F6002259440B8E64B611 /* Exceptions for MemoryMap */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 826B218B3089E16D00B5288D /* MemoryMap */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		826B218E3089E16D00B5288D /* MemoryMap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E814F6002259440B8E64B611 /* Exceptions for MemoryMap */,
+			);
 			path = MemoryMap;
 			sourceTree = "<group>";
 		};
@@ -33,7 +45,6 @@
 		826B21833089E16D00B5288D = {
 			isa = PBXGroup;
 			children = (
-				2A50F088E69B4EAAA97EDFAD /* README.md */,
 				826B218E3089E16D00B5288D /* MemoryMap */,
 				826B218D3089E16D00B5288D /* Products */,
 			);
